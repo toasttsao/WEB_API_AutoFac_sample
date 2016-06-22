@@ -48,13 +48,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WEB_API.DA.Interfaces\WEB_API.Provider.Interfaces.csproj">
-      <Project>{ff5ffadc-d20f-47d7-a8b4-c64b89753f73}</Project>
-      <Name>WEB_API.Provider.Interfaces</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WEB_API.Model\WEB_API.Model.csproj">
       <Project>{32d5a6f5-3caa-457e-a9f9-9fa28fe053b4}</Project>
       <Name>WEB_API.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WEB_API.Provider.Interfaces\WEB_API.Provider.Interfaces.csproj">
+      <Project>{ff5ffadc-d20f-47d7-a8b4-c64b89753f73}</Project>
+      <Name>WEB_API.Provider.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

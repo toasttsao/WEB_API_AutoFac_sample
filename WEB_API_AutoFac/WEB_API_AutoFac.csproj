@@ -265,21 +265,21 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WEB_API.DA.BankA\WEB_API.Provider.BankA.csproj">
-      <Project>{70a61298-062e-4aa5-b499-8bd80a0e83c5}</Project>
-      <Name>WEB_API.Provider.BankA</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WEB_API.DA.BankB\WEB_API.Provider.BankB.csproj">
-      <Project>{2b482338-77aa-449f-9d1e-55cb36599723}</Project>
-      <Name>WEB_API.Provider.BankB</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WEB_API.DA.Interfaces\WEB_API.Provider.Interfaces.csproj">
-      <Project>{ff5ffadc-d20f-47d7-a8b4-c64b89753f73}</Project>
-      <Name>WEB_API.Provider.Interfaces</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WEB_API.Model\WEB_API.Model.csproj">
       <Project>{32d5a6f5-3caa-457e-a9f9-9fa28fe053b4}</Project>
       <Name>WEB_API.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WEB_API.Provider.BankA\WEB_API.Provider.BankA.csproj">
+      <Project>{70a61298-062e-4aa5-b499-8bd80a0e83c5}</Project>
+      <Name>WEB_API.Provider.BankA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WEB_API.Provider.BankB\WEB_API.Provider.BankB.csproj">
+      <Project>{2b482338-77aa-449f-9d1e-55cb36599723}</Project>
+      <Name>WEB_API.Provider.BankB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WEB_API.Provider.Interfaces\WEB_API.Provider.Interfaces.csproj">
+      <Project>{ff5ffadc-d20f-47d7-a8b4-c64b89753f73}</Project>
+      <Name>WEB_API.Provider.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
